@@ -1,0 +1,66 @@
+/* AllDeals.css */
+
+.all-deals-container {
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f8fa;
+    min-height: 100vh;
+  }
+  
+  .all-deals-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .logout-button {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #e60000;
+  }
+  
+  .deal-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease;
+  }
+  
+  .deal-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .deal-card h3 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  .deal-card p {
+    margin: 8px 0;
+    color: #444;
+    font-size: 15px;
+  }
+  
+  .deal-card img {
+    margin-top: 12px;
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

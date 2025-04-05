@@ -1,0 +1,81 @@
+/* CreateDeal.css */
+
+.create-deal-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .create-deal-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .create-deal-form input,
+  .create-deal-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .create-deal-form input:focus,
+  .create-deal-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .create-deal-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .create-deal-form input[type="file"] {
+    padding: 8px 0;
+  }
+  
+  .create-deal-form button {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .create-deal-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Logout Button */
+  .create-deal-container > button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-deal-container > button:hover {
+    background-color: #c82333;
+  }
+  
